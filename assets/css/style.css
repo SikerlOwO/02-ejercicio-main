@@ -1,0 +1,125 @@
+body{
+    margin: 0 auto;
+
+}
+
+header{
+    background-color: #0055b7;
+    height: 120px;
+}
+
+.container{
+margin: 0 auto;
+    width: 1140px;
+}
+.container-fluid{
+    width: 100%;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+
+.logo{
+    width: 15%;
+    height: 120px;
+    background-color: #0055b7;
+
+}
+.col-2 > img {
+    margin-top: 20px;
+}
+.menu-principal{
+    width: 60%;
+    height: 120px;
+    background-color: #0055b7;
+}
+
+.logo-inst{
+    width: 25%;
+    height: 120px;
+    background-color: #0055b7;
+}
+.col-8 > img{
+    margin-top: 20px;
+
+}
+
+.menu-nav{
+    float: right;
+
+}
+.menu-nav > ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.menu-nav > ul > li{
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    padding-top: 15px;
+    padding-left: 15px;
+    line-height: 20px;
+    float: left;
+}
+.menu-nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+.menu-nav > ul > li > a:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    line-height: 20px;
+}
+.col-1{
+    flex: 0 0 auto;
+    width: 8.333333333%;
+}
+.col-2{
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+}
+.col-3{
+    flex: 0 0 auto;
+    width: 25%;
+}
+.cot-4{
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+}
+.col-5{
+    flex: 0 0 auto;
+    width: 41.6666666667%;
+}
+.col-6{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.col-7{
+    flex: 0 0 auto;
+    width: 58.3333333333%;
+}
+.col-8{
+    flex: 0 0 auto;
+    width: 66.6666666667%;
+}
+.col-9{
+    flex: 0 0 auto;
+    width: 75%;
+}
+.col-10{
+    flex: 0 0 auto;
+    width: 83.33%;
+}
+.col-11{
+    flex: 0 0 auto;
+    width: 91.67%;
+}
+.col-12{
+    flex: 0 0 auto;
+    width: 100%;
+}
